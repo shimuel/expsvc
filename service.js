@@ -8,7 +8,7 @@ const ObjectID = require('mongodb').ObjectID
 
 const app = express()
 const port = process.env.PORT || 3001
-const mongoURL = process.env.MONGO_URL || 'mongodb://localhost:27017/dev'
+const mongoURL = process.env.MONGO_URL || 'mongodb://10.100.199.90:27017/dev'
 
 app.use(cors());
 app.use(express.json());
